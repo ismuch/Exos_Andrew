@@ -1,6 +1,0 @@
-poids=float(input("entrez votre poids en kg: "))
-print(poids)
-taille=float(input("entrez votre taille en m: "))
-print(taille)
-IMC=poids/(taille**2)
-print("Pour un poids de "+str(poids)+"kg et une taille de " +str(taille)+" m votre imc est :"+ str(IMC))
